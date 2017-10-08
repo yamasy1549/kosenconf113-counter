@@ -57,3 +57,14 @@ main {
 .btn:focus {
   outline: 0;
 }
+
+@media(min-width: 500px) {
+  main {
+    flex-flow: row;
+  }
+
+  .team {
+    width: 50vw;
+    height: 100vh;
+  }
+}
