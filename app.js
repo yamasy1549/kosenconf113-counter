@@ -7,8 +7,6 @@ const bodyParser     = require('body-parser')
 const axios          = require('axios')
 
 // setup
-const createSeeds = require('./dbSeeds')
-createSeeds()
 const Team = require('./dbSetup').Team
 
 // server listen
