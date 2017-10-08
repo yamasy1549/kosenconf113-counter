@@ -11,6 +11,7 @@ main {
 }
 
 .team {
+  position: relative;
   width: 50vw;
   height: 100vh;
   display: flex;
@@ -31,4 +32,9 @@ main {
 .score {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 10rem;
+}
+
+.paw {
+  width: 3vw;
+  position: absolute;
 }
