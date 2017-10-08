@@ -1,0 +1,59 @@
+:root {
+  --red: #BA191F;
+  --white: #FFFFFF;
+  --brown: #B78237;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+}
+
+.team {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team.red {
+  background: var(--red);
+}
+
+.team.white {
+  background: var(--white);
+}
+
+.btn {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 10vh;
+  font-weight: bold;
+}
+
+.red .btn {
+  color: var(--white);
+  border: 1vh solid var(--white);
+}
+
+.red .btn:active {
+  background: var(--white);
+  color: var(--red);
+}
+
+.white .btn {
+  color: var(--brown);
+  border: 1vh solid var(--brown);
+}
+
+.white .btn:active {
+  background: var(--brown);
+  color: var(--white);
+}
+
+.btn:focus {
+  outline: 0;
+}

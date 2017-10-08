@@ -4,10 +4,19 @@
     <title></title>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width,initial-scale=1,user-scalable=no'>
+
+    <link rel='stylesheet' href='../css/reset.css'>
+    <link rel='stylesheet' href='../css/index.css'>
   </head>
   <body>
-    <button id='red-btn'>red</button>
-    <button id='white-btn'>white</button>
+    <main>
+      <div class='team red'>
+        <button class='btn' id='red-btn'>紅</button>
+      </div>
+      <div class='team white'>
+        <button class='btn' id='white-btn'>白</button>
+      </div>
+    </main>
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="./js/index.js"></script>

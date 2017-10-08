@@ -29,6 +29,7 @@ app.use(methodOverride((req, res) => {
   }
 }))
 app.use('/js', express.static('js'))
+app.use('/css', express.static('css'))
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html')

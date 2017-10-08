@@ -4,14 +4,21 @@
     <title></title>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width,initial-scale=1'>
+
+    <link rel='stylesheet' href='../css/reset.css'>
+    <link rel='stylesheet' href='../css/scores.css'>
   </head>
   <body>
     <main>
-      <div id='red-score'>0</div>
-      <div id='white-score'>0</div>
+      <div class='team red'>
+        <span class='score' id='red-score'>0</span>
+      </div>
+      <div class='team white'>
+        <span class='score' id='white-score'>0</span>
+      </div>
     </main>
 
     <script src="/socket.io/socket.io.js"></script>
-    <script src="./js/scores.js"></script>
+    <script src="../js/scores.js"></script>
   </body>
 </html>
